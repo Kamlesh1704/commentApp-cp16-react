@@ -1,0 +1,81 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.commentandimage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.countcomments {
+  display: flex;
+  font-size: bold;
+  margin-left: 10px;
+}
+.bg {
+  height: 100vh;
+  margin-top: 25px;
+}
+
+.heading {
+  font-size: 50px;
+}
+.para {
+  color: rgb(29, 16, 113);
+  font-family: 'roboto';
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  height: 35px;
+  width: 280px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.textarea {
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 280px;
+}
+.button {
+  background-color: #0284c7;
+  color: white;
+  font-family: 'roboto';
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 35px;
+  margin-top: 5px;
+  text-align: center;
+}
+.img {
+  height: 300px;
+  width: 300px;
+}
+hr {
+  color: grey;
+  margin-top: 5px;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+}
+.count {
+ 
+  color: white;
+  font-family: 'roboto';
+  background-color: aqua;
+  border-radius: 2px;
+  height: 10px;
+  width: 10px;
+  text-align: center;
+  margin-right: 9px;
+
+}
+.comments {
+  font-size: bold;
+  color: black;
+  font-family: 'roboto';
+}
